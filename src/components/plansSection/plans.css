@@ -1,0 +1,69 @@
+.programs_header{
+    gap: 2rem;
+}
+.plans_container{
+    margin-top: -4rem;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: relative;
+}
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    background: var(--caloryCard);
+    color: white;
+    width: 15rem;
+    padding: 1.5rem;
+    gap: 2rem;
+}
+.plan:nth-child(2){
+    background: var(--planCard  );
+    transform: scale(1.1);
+}
+.plan:nth-child(2)>svg{
+    fill:white
+}
+.plan:nth-child(2)>svg {
+    fill: white
+}
+.plan:nth-child(2)>button {
+color: var(--orange)}
+.plan>svg{
+    fill:var(--orange);
+    height: 2rem;
+    width: 2rem;
+}
+.plan>:nth-child(2){
+    font-size: 1rem;
+    font-weight: bold;;
+}
+.plan>:nth-child(3) {
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+.plan>:nth-child(5) {
+    font-size: 0.8rem;  
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.feature>img{
+    width: 1rem;
+    fill: white;
+}
