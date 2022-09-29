@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 3.5rem;
+}
+.header_menu{
+    display: flex;
+    list-style: none  ;
+    gap: 2rem;
+color: white;
+}
+.header_items:hover{
+    color: var(--orange);
+    cursor: pointer;
+}
