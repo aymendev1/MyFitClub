@@ -1,5 +1,6 @@
 import MainSection from "./components/mainSection/hero.jsx";
 import ProgramsSection from "./components/ProgramsSection/Programs.jsx";
+import ReasonSection from "./components/ReasonSection/Reason.jsx";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <MainSection />
       <ProgramsSection />
+      <ReasonSection />
     </div>
   );
 }
