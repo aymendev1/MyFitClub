@@ -67,3 +67,25 @@ color: var(--orange)}
     width: 1rem;
     fill: white;
 }
+.plans-blub{
+    width: 23rem;
+    height: 23rem;
+    top: 6rem;
+    left:0;
+
+}
+.plans-blub2{
+    width: 23rem;
+    height: 23rem;
+    top: 10rem;
+    right:0;
+
+}
+@media screen and (max-width:768px){
+    .plans{
+        flex-direction: column;
+    }
+    .plans>:nth-child(2){
+        transform: none;
+    }
+}

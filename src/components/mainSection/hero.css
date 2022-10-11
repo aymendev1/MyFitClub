@@ -122,10 +122,10 @@ width: 2rem;
     color: white;  font-size: 1.5rem ;
 }
 .mainSection_img{
-    position: absolute;
-    top: 10rem;
-    right: 8rem;
-    width: 23rem;
+         position: absolute;
+                top: 2.5rem;
+                right: -2rem;
+                width: 40rem;
 }
 .mainSection_imgback {
     position: absolute;
@@ -156,4 +156,73 @@ width: 2rem;
 .caloriesBox>div>:nth-child(2) {
     color: white;
     font-size: 1.5em;
+}
+.blur-main{
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+}
+@media screen and (max-width: 768px){
+    .heroSection{
+        flex-direction: column;
+    }
+    .blur-main{
+            width: 14rem;
+        }
+    .slogan{
+            margin-top: 0;
+            font-size: small;
+            align-self: center;
+            transform: scale(0.8);
+        }
+    .heading_text{
+        font-size: xx-large;
+        align-items: center;justify-content: center;;
+    }
+    .heading_text>div:nth-of-type(3){
+        font-size: small;
+        font-weight: 200;
+        letter-spacing: 1px;
+        text-align: center;;
+    }
+    .section_buttons{
+        justify-content: center;
+
+    }
+    .figures >div>span:nth-of-type(1){
+        font-size: large;
+    }
+    .figures >div>span:nth-of-type(2){
+        font-size: small;
+    }
+    .right-h{
+    position: relative;
+    background:none;
+    }
+    .heart_rate{
+        left: 1rem;
+        top: 2rem;
+    }
+    .caloriesBox{
+        position: relative;
+        top: 1rem;
+        left: 2rem;;
+    }
+    .caloriesBox_img{width: 2rem;}
+    .caloriesBox >div>:nth-child(2){
+        color: white;
+        font-size: 1rem;
+    }
+    .mainSection_img{
+        position: relative;
+        width: 30rem;
+        left: 2rem;
+        top: 4rem;
+        align-self: center;
+    }
+    .mainSection_imgback{
+        width: 15rem;
+        left: 2rem;
+        top: 0rem;;
+    }
 }

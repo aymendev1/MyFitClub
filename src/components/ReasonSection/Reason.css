@@ -6,7 +6,7 @@
 .left-s{
     flex: 1 1;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,0.2fr);
     gap: 1rem;
     grid-auto-rows: 1fr;
 }
@@ -20,7 +20,7 @@
     height: 28rem;
 }
 .left-s>:nth-child(2) {
-    width: auto;
+    width: 400px;
     height: 16rem;
     grid-column: 2/4;
 }
@@ -36,8 +36,6 @@
     height: 11.2rem;
     
 }
-
-
 .right-s{
     flex: 1 1 ;
     text-transform: uppercase;
@@ -76,4 +74,25 @@
 }
 .partners>img{
     width: 2.5rem;
+}
+@media screen and (max-width: 768px){
+    .reasons{
+        flex-direction:column;
+    }
+    .left-s{
+grid-auto-rows: auto;overflow: hidden;;
+    }
+    .left-s>:nth-child(1){
+        width: 7rem;height: 17rem;
+    }
+    .left-s>:nth-child(2){
+        width: 15rem;height: 10rem;
+    }
+    .left-s>:nth-child(4){
+        width: 7rem;height: 6rem;
+    }
+    .left-s>:nth-child(3){
+        width: 7rem;
+    }
+
 }

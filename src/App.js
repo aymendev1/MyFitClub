@@ -4,6 +4,7 @@ import ReasonSection from "./components/ReasonSection/Reason.jsx";
 import PlansSection from "./components/plansSection/plans.jsx";
 import TestimonialSection from "./components/TestimonialSection/Testimonial.jsx";
 import JoinSection from "./components/JoinSection/join.jsx";
+import Footer from "./components/Footer/footer.jsx";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <PlansSection />
       <TestimonialSection />
       <JoinSection />
+      <Footer />
     </div>
   );
 }

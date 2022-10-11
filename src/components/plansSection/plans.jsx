@@ -4,7 +4,9 @@ import { plansData } from "../../data/plansData";
 import tick from "../../assets/whiteTick.png";
 export default function plansSection() {
   return (
-    <div className="plans_container" id="PlansSection">
+    <div className="plans_container" id="plansSection">
+      <div className="blur plans-blub"></div>
+      <div className="blur plans-blub2"></div>
       <div className="programs_header">
         <span className="stroke_txt">READY TO START</span>
         <span>YOUR JOURNEY</span>
