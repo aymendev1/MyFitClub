@@ -1,3 +1,46 @@
+# MyFitCLub
+
+A website Template for gym / Fitness club
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- See Plans
+- Subscribe to the Gym
+
+### Screenshot
+
+![](./screenshot.png)
+
+### Links
+
+- Solution URL: [Click Me !](https://github.com/aymendev1/MyFitClub)
+- Live Site URL: [Click Me !](https://myfitclub-aymendev1.netlify.app/)
+
+### Built with
+
+- ReactJS
+- CSS
+- EmailJS
+
+## Author
+
+- Website - [Aymen's Portfolio](https://www.your-site.com)
+- LinkedIn- [@aymanazougar](https://www.linkedin.com/in/aymanazougar/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
